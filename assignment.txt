@@ -1,0 +1,25 @@
+**TASK**    "UI test for Mortgage Loan calculator"
+
+Create UI test to find out:
+1. Monthly payment 
+2. Your maximum possible loan amount
+
+URL: https://www.swedbank.lt/private/credit/loans/home?language=ENG 
+
+IF following criterias:
+
+* I am applying for a loan with a co-applicant -> NO
+* I have children (dependants) in family -> YES
+* Dependants in family -> 2 or more
+* Total monthly income -> 1000 EUR
+* I have existing loan obligations (incl. in Swedbank) -> NO
+* Choose loan amount -> 45000 eur
+* Choose loan term -> 11 years
+
+Technical requirements:
+* Using selenium but can use any framework that uses it, for example Selenide
+
+Bonus points:
+* Use of automated test frameworks like Cucumber, Robot, Serenity etc
+
+Please upload homework to GitHub and share the link.
